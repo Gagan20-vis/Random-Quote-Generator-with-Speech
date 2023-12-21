@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-image: url('./assets/city.jpg');
+  background-position: bottom;
+  transition: 0.4 ease-out;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.master {
+  position: absolute;
+  top: 32%;
+  left: 32%;
+}
+
+.container {
+  height: 140px;
+  width: 515px;
+  border-radius: 10px;
+  box-shadow: 5px 5px black;
+  background-color: white;
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  text-align: center;
+  /* position: sticky; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+button {
+  border: 1px solid rgb(8 70 175 / 76%);
+    border-radius: 50px;
+    padding: 8px 39px;
+    background: transparent;
+    margin-top: 25px;
+    color: rgb(8 70 175 / 76%);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+button:hover{
+  box-shadow: 0px 0px 24px rgb(8 70 175 / 76%);
+}
+
+#title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
